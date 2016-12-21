@@ -2,7 +2,7 @@ sources:
     osm: 
         type: TopoJSON
         url: https://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-JUsa0Gc
-        max_zoom: 16
+        max_zoom: 14
         rasters: [normals]
     normals:
         type: Raster
